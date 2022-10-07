@@ -31,3 +31,10 @@ console.log(10 !== 11); //In questo caso la risposta è true perchè i numeri so
 || OR
 ! NOT
 */
+let likes = 5;
+likes +=1;  //l'operatore += aggiunge il numero 1 alla variabile likes. Serve per non riscrivere la variabile cioè equivale a: likes=likes+1
+console.log(likes); // A schermo vedo il numero 6
+
+let like = 5;
+likes -=1;  //l'operatore -= sottrae il numero 1 alla variabile likes. Serve per non riscrivere la variabile cioè equivale a: likes=likes-1
+console.log(likes);
