@@ -5,3 +5,13 @@ let numColors;
 numColors=colors.length;
 console.log(numColors); //Verrà visualizzata la lunghezza dell'array cioè 3
 colors[2]='beige'; //Aggiorna il valore dell'index 2 dell'array trasformandolo da black a beige
+
+
+const toDo = ["call mom", "dishes"];
+toDo.push("Ciao"); //Aggiunge la stringa ciao all'array
+console.log(toDo);
+
+
+const toDo1 = ["call mom", "dishes"];
+toDo.pop(); //Toglie l'ultima stringa dall'array
+console.log(toDo1);
