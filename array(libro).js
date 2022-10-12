@@ -15,3 +15,7 @@ console.log(toDo);
 const toDo1 = ["call mom", "dishes"];
 toDo.pop(); //Toglie l'ultima stringa dall'array
 console.log(toDo1);
+
+const toDo2 = ["call mom", "dishes"];
+let chore = toDo2.pop(); //Toglie la stringa dishes da toDo2 e l'assegna a chore
+console.log(chore);
