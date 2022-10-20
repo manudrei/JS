@@ -9,7 +9,7 @@ function somma() {
                 // quando diamo un nome di una variabile possiamo usare numeri, lettere maiuscole e minuscole e underscore
 
     
-    let nome = 'Manuel';  //inizializzazione di una variabile
+    let nome1 = 'Manuel';  //inizializzazione di una variabile
 
                 //dichiarare una variabile si puo' fare con let o var
     
@@ -22,14 +22,17 @@ function somma() {
 
 
     let persona ={                  //dichiariazione variabile oggetto
-        nome: 'Edoardo';
-        cognome: 'Random';
-        codiceFiscale: 'dgsdhgdshgsdhghs';
+        nome: 'Edoardo',
+        cognome: 'Random',
+        codiceFiscale: 'dgsdhgdshgsdhghs'
     }
     
 
 const uomo = 'Gino'; // dichiarazione di una costante, la quale non puo' essere più cambiata nel codice
+var surname = "Smith"; //Ha il vantaggio rispetto a const e let che la variabile può essere ridichiarata più di una volta
 
 
-
-
+function readDiary() {
+    const myDiary = "Dear diary, today...";
+   }
+   console.log(myDiary); //Dirà che la variabile non è definita perchè è dentro la funzione
